@@ -1,0 +1,16 @@
+{
+  "name": "PnP-JS-Core-Debbug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ARVO\\andrew.koltyakov <andrew.koltyakov@arvosys.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sp-pnp-node": "^2.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.6.2"
+  }
+}

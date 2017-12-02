@@ -7,4 +7,6 @@ init().then(async settings => {
   let web = new Web(settings.siteUrl);
   let willFailHere = await web.lists.getByTitle('There is no such a list name for sure').get();
 
-}).catch(console.log);
+}).catch(err => {
+  console.log(err.data.responseBody.error.message.value);
+});

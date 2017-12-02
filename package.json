@@ -1,10 +1,14 @@
 {
-  "name": "PnP-JS-Core-Debbug",
+  "name": "pnp-js-core-debug",
   "version": "1.0.0",
   "main": "index.js",
   "author": "ARVO\\andrew.koltyakov <andrew.koltyakov@arvosys.com>",
   "license": "MIT",
+  "scripts": {
+    "init": "ts-node ./utils/init.ts"
+  },
   "dependencies": {
+    "deep-assign": "^2.0.0",
     "sp-pnp-node": "^2.0.1"
   },
   "devDependencies": {

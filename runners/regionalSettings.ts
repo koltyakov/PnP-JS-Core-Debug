@@ -1,15 +1,8 @@
-import { Web, setup } from './../../PnP-JS-Core/src/pnp';
-import { PnpNode } from 'sp-pnp-node';
+import { Web } from './../../PnP-JS-Core/src/pnp';
+import { initEnvironment as init } from './../utils/pnpnode';
+import './../utils/setup';
 
-setup({
-  sp: {
-    headers: {
-      Accept: 'application/json;odata=nometadata'
-    }
-  }
-});
-
-(new PnpNode()).initAmbient().then(async settings => {
+init().then(async settings => {
 
   let web = new Web(settings.siteUrl);
 

@@ -1,6 +1,6 @@
 # PnP JS Core Debug
 
-Allows debuggins local sources of PnP JS Core right in TypeScript with live requests to SharePoint environment in Node.js.
+Allows debugging local sources of PnP JS Core right in TypeScript with live requests to SharePoint environment in Node.js.
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ git clone https://github.com/[namespace]/PnP-JS-Core-Debug
 
 ## Install dependencies
 
-Dependencies should be restored in both projetcs' folders with:
+Dependencies should be restored in both projetcs' folders:
 
 ```bash
 npm install
@@ -47,13 +47,13 @@ yarn install
 
 ## VS Code is our editor of choise
 
-Open both project in VS Code. Workspaces is the best option here.
+Open both projects in VS Code. Workspaces are the best option here.
 
 ![](/assets/vscode_workspace.png)
 
 ## Upstream for PnP JS Core
 
-Add upstream for PnP JS Core (one time operation).
+Add upstream for PnP JS Core (one-time operation).
 In `PnP JS Core`'s folder:
 
 ```bash
@@ -70,10 +70,10 @@ git fetch upstream dev
 
 It's recommended using feature branches for code changes related to a specific feature or bug fix.
 
-Before creating a feture branch make sure:
+Before creating a feature branch make sure:
 
-- Feature branch is based on PnP JS Core `dev` branch.
-- Local branch is synced with remote `upstream` branch (this can be done with feature branch too).
+- A feature branch is based on PnP JS Core `dev` branch.
+- The local branch is synced with remote `upstream` branch (this can be done with feature branch too).
 
 ```bash
 git checkout dev
@@ -85,7 +85,7 @@ It's better to prefix feature branch with `dev-`.
 
 ## Connecting tools with SharePoint
 
-On firts run SharePoint environment connection should be initiated:
+On first run SharePoint environment connection should be initiated:
 
 ### Run npm task
 
@@ -93,7 +93,7 @@ On firts run SharePoint environment connection should be initiated:
 npm run init
 ```
 
-You'll be prompted with SharePoint web url and credentials, just follow the wizard:
+You'll be prompted with SharePoint web URL and credentials, just follow the wizard:
 
 ![](/assets/auth_init.png)
 
@@ -101,8 +101,8 @@ Read [more](https://github.com/s-KaiNet/node-sp-auth) about supported auth scena
 
 ### Configuration files
 
-Connection is saved to config files which is better to exclude from git repository.
-By default config path is `./config/private.json`. Passwords in configs are stored in encrypted way.
+Connection is saved to config files which are better to exclude from a git repository.
+By default config path is `./config/private.json`. Passwords in configs are stored in an encrypted way.
 
 Config sample:
 
@@ -139,8 +139,8 @@ init().then(async settings => {
 }).catch(console.log);
 ```
 
-Place debug brake points in PnP JS Core `.ts` sources or your custom code.
-Open a runner which executes logic to test and start a debugger for current file.
+Place debug break points in PnP JS Core `.ts` sources or your custom code.
+Open a runner which executes logic to test and start a debugger for the current file.
 
 ![](/assets/vscode_debug_01.png)
 

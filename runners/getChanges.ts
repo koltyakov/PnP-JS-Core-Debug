@@ -39,6 +39,11 @@ init().then(async settings => {
     }
   });
 
+  // ChangeType:
+  // 1 - added
+  // 2 - changed
+  // 3 - deleted
+
   console.log('List changes:');
   console.log(JSON.stringify(listChanges, null, 2));
 

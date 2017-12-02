@@ -33,7 +33,7 @@ git clone https://github.com/[namespace]/PnP-JS-Core-Debug
 
 ## Install dependencies
 
-Dependencies should be restored in both projetcs' folders:
+Dependencies should be restored in both projects' folders:
 
 ```bash
 npm install

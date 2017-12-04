@@ -63,7 +63,7 @@ git remote add upstream https://github.com/SharePoint/PnP-JS-Core
 This will allow syncing your repository sources with main repo with:
 
 ```bash
-git fetch upstream dev
+git pull upstream dev
 ```
 
 ## Feature branch

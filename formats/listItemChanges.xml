@@ -1,0 +1,51 @@
+<?xml version=\"1.0\" encoding=\"utf-8\" ?>
+<GetListItemChangesSinceTokenResult>
+  <listitems MinTimeBetweenSyncs='0' RecommendedTimeBetweenSyncs='180' MaxBulkDocumentSyncSize='500' MaxRecommendedEmbeddedFileSize='500' EffectivePermMask='FullMask' 
+    xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'\r\n 
+    xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'\r\n 
+    xmlns:rs='urn:schemas-microsoft-com:rowset'\r\n 
+    xmlns:z='#RowsetSchema'>\r\n
+    <Changes LastChangeToken=\"1;3;c96c7fe8-18ed-4106-b375-4aee7eaa7bf9;636480602934970000;18730425\">\r\n</Changes>\r\n
+    <rs:data ItemCount=\"1\">\r\n   
+      <z:row ows_ID='7'
+        ows_ContentTypeId='0x01006253FE051E20144D8CFBA3EA20E83223'
+        ows_ContentType='Item'
+        ows_Title='Change 3'
+        ows_Modified='2017-12-05 00:44:53'
+        ows_Created='2017-12-05 00:44:52'
+        ows_Author='8;#Andrew Koltyakov'
+        ows_Editor='8;#Andrew Koltyakov'
+        ows_owshiddenversion='4'
+        ows_WorkflowVersion='1'
+        ows__UIVersion='512'
+        ows__UIVersionString='1.0'
+        ows_Attachments='0'
+        ows__ModerationStatus='0'
+        ows_LinkTitleNoMenu='Change 3'
+        ows_LinkTitle='Change 3'
+        ows_LinkTitle2='Change 3'
+        ows_SelectTitle='7'
+        ows_Order='700.000000000000'
+        ows_GUID='{A00932C4-CC99-4CD9-92CB-B9092EAEBB03}'
+        ows_FileRef='7;#sites/dev-a/Lists/List with changes/7_.000'
+        ows_FileDirRef='7;#sites/dev-a/Lists/List with changes'
+        ows_Last_x0020_Modified='7;#2017-12-05 00:44:52'
+        ows_Created_x0020_Date='7;#2017-12-05 00:44:52'
+        ows_FSObjType='7;#0'
+        ows_SortBehavior='7;#0'
+        ows_PermMask='0x7fffffffffffffff'
+        ows_FileLeafRef='7;#7_.000'
+        ows_UniqueId='7;#{90A6F34F-EDEC-4105-9D02-606EA62EE3CC}'
+        ows_ProgId='7;#'
+        ows_ScopeId='7;#{C84A3209-04AC-4563-B7CA-D8B37FFB0337}'
+        ows__EditMenuTableStart='7_.000'
+        ows__EditMenuTableStart2='7'
+        ows__EditMenuTableEnd='7'
+        ows_LinkFilenameNoMenu='7_.000'
+        ows_LinkFilename='7_.000'
+        ows_LinkFilename2='7_.000'
+        ows_ServerUrl='/sites/dev-a/Lists/List with changes/7_.000'
+        ows_EncodedAbsUrl='https://spnode.sharepoint.com/sites/dev-a/Lists/List%20with%20changes/7_.000' ows_BaseName='7_' ows_MetaInfo='7;#' ows__Level='1' ows__IsCurrentVersion='1' ows_ItemChildCount='7;#0' ows_FolderChildCount='7;#0' ows_Restricted='7;#' ows_OriginatorId='7;#' ows_NoExecute='7;#0' ows_ContentVersion='7;#0' ows__ComplianceFlags='7;#' ows__ComplianceTag='7;#' ows__ComplianceTagWrittenTime='7;#' ows__ComplianceTagUserId='7;#' ows_AccessPolicy='7;#' ows__VirusStatus='7;#' ows__VirusVendorID='7;#' ows__VirusInfo='7;#' ows_SMTotalSize='7;#188' ows_SMLastModifiedDate='7;#2017-12-05 00:44:54' ows_SMTotalFileStreamSize='7;#0' ows_SMTotalFileCount='7;#0' ows_ServerRedirected='0' />\r\n
+    </rs:data>\r\n
+  </listitems>
+</GetListItemChangesSinceTokenResult>

@@ -22,12 +22,28 @@ init().then(async settings => {
     Title: 'Test item with attachment'
   });
 
-  let filePath = path.join(__dirname, './assets/testAttachment.txt');
-  let content = fs.readFileSync(filePath).buffer;
+  let filePath = path.join(__dirname, './assets/pnp-node.png');
+
+  let content = fs.readFileSync(filePath); // .toString(); // Will work
+  // let content = fs.readFileSync(filePath).buffer; // Won't work
+
+  // let content = await ((): Promise<any> => {
+  //   return new Promise((resolve, reject) => {
+  //     fs.readFile(filePath, null, (err, nb) => {
+  //       if (err) {
+  //         reject(err);
+  //       }
+  //       resolve(nb);
+  //     });
+  //   });
+  // })();
+
   let fileName = path.parse(filePath).name + path.parse(filePath).ext;
 
-  newItem.item.attachmentFiles.add(fileName, content)
-    .then(console.log)
+  newItem.item.attachmentFiles.add(fileName, content as any)
+    .then(result => {
+      console.log(result.data.ServerRelativePath);
+    })
     .catch(err => {
       console.log(err, err.data.responseBody.error);
     });

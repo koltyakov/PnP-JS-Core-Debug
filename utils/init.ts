@@ -1,6 +1,6 @@
 import { Web } from './../../PnP-JS-Core/src/pnp';
-import { initEnvironment as init } from './../utils/pnpnode';
-import './../utils/setup';
+import { initEnvironment as init } from './pnpnode';
+import './setup';
 
 init({
   config: {
